@@ -1,0 +1,19 @@
+.comment-sidebar {
+  width: 20rem;
+  height: calc(100vh - 80px);
+  overflow-y: overlay;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  display: flex; 
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.sidebar-content {
+  margin: 0 auto;
+}
+
+.comment-sidebar__loading {
+  font-size: 1.3rem;
+  text-align: center;
+}

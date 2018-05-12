@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "author": "User A",
+    "text": "Great, this is User A's first comment",
+    "timeAgo": "Fri May 11 2018 14:26:19 GMT-0600 (MDT)",
+    "replies": []
+  },
+  {
+    "id": 2,
+    "author": "User B",
+    "text": "I'm User B, I wanna try commenting too",
+    "timeAgo": "Fri May 11 2018 14:16:19 GMT-0600 (MDT)",
+    "replies": [
+      {
+        "id": 1,
+        "author": "User A",
+        "text": "Hi B, this reply feature is pretty cool",
+        "timeAgo": "Fri May 11 2018 14:18:19 GMT-0600 (MDT)"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "author": "User C",
+    "text": "Wow, bet you guys didn't realize there was a User C",
+    "timeAgo": "Fri May 11 2018 14:05:19 GMT-0600 (MDT)",    
+    "replies": [
+      {
+        "id": 1,
+        "author": "User A",
+        "text": "Hi C, A here. What's up?",
+        "timeAgo": "Fri May 11 2018 14:08:19 GMT-0600 (MDT)"
+      },
+      {
+        "id": 2,
+        "author": "User B",
+        "text": "Oh hey C, let's go for a drink soon",
+        "timeAgo": "Fri May 11 2018 14:12:19 GMT-0600 (MDT)"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "author": "User D",
+    "text": "Hey guys, don't forget about me. I exist too!",
+    "timeAgo": "Fri May 11 2018 13:22:19 GMT-0600 (MDT)",    
+    "replies": []
+  }
+]

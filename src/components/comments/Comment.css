@@ -1,0 +1,41 @@
+.comment-container {
+  min-width: 100%; 
+  padding: 0.5rem;
+  transition: 0.3s; 
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #efefef;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); 
+}
+
+.comment-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.comment-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 1.5rem;
+}
+
+.comment-author {
+  margin: 0;
+  font-weight: bold;
+  font-size: 0.9rem;
+  background: #ccc;
+  padding: 0.2rem 0.7rem;
+  border-radius: 15px;
+  color: #000;
+}
+
+.comment-timeAgo {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.comment-text {
+  margin: 0.5rem 0;
+}
